@@ -1,0 +1,107 @@
+/* LoginPage.css */
+
+.containerSignup {
+    background-color: #f7f1e1; /* Nuanță de bej */
+    font-family: Arial, sans-serif;
+    justify-content: center; /* Centrează pe orizontală */
+    align-items: center; /* Centrează pe verticală */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px; 
+    margin-bottom: 50px; 
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px; /* Opțional: adaugă o mică încadrare rotunjită */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titleLogin {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5a3d2f; /* Culoare bej închis */
+}
+
+.underline {
+    width: 50px;
+    height: 5px;
+    background-color: #5a3d2f;
+    margin: 10px auto;
+}
+
+.inputs {
+    width: 100%;
+    max-width: 400px; /* Lățime maximă pentru formular */
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: 2px solid #f7f1e1; /* Bej pal */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adăugăm spațiu între elementele formularului */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e1d4b8; /* Culoare bej deschis pentru chenar */
+    padding-bottom: 8px;
+}
+
+.input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.icon {
+    color: #5a3d2f; /* Culoare iconițelor */
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Adăugăm spațiu între butoane */
+}
+
+.submit {
+    background-color: #5a3d2f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #6c4a3c; /* Culoare mai închisă la hover */
+}
+
+.register-button {
+    background-color: transparent;
+    color: #5a3d2f;
+    border: 2px solid #5a3d2f;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #5a3d2f;
+    color: white;
+}
